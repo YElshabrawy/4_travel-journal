@@ -10,6 +10,11 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+hr {
+    border: 0;
+    border-top: 2px solid #f5f5f5;
+}
+
 /* Navbar */
 nav {
     background-color: #f55a5a;
@@ -17,7 +22,6 @@ nav {
     align-items: center;
     justify-content: center;
     height: 60px;
-    margin-bottom: 60px;
 }
 
 nav > h3 {
@@ -37,7 +41,7 @@ nav > h3 {
 }
 .container {
     width: 60%;
-    margin: 0 auto;
+    margin: 60px auto;
     display: flex;
 }
 
